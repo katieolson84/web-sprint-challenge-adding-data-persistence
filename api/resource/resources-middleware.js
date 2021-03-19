@@ -1,4 +1,4 @@
-const Resources = require('./model')
+const Resources = require('../resource/model')
 
 const checkId = async (req,res,next) => {
     try{

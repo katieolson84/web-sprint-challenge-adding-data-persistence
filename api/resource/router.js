@@ -1,6 +1,6 @@
 // build your `/api/resources` router here
 const express = require('express');
-const Resources = require('./model')
+const Resources = require('../resource/model')
 const router = express.Router();
 
 // Get resource list

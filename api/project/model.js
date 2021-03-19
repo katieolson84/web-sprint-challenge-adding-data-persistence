@@ -26,7 +26,7 @@ const insert = (project) => {
 
 module.exports = {
     get,
-    // getById,
+    getById,
     insert,
 
 }

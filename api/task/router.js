@@ -1,6 +1,6 @@
 // build your `/api/tasks` router here
 const express = require('express');
-const Tasks = require('./model')
+const Tasks = require('../task/model')
 const router = express.Router();
 const {validateTask} = require('./task-middleware');
 

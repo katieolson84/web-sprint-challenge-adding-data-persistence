@@ -1,4 +1,4 @@
-const Project = require('./model')
+const Project = require('../project/model')
 
 const checkId = async (req,res,next) => {
     try{

@@ -24,5 +24,4 @@ module.exports = {
     get,
     getById,
     insert,
-
 }
