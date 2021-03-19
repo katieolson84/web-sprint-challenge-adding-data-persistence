@@ -11,7 +11,6 @@ const getById = async (resources_id) => {
     .where('r.resources_id', resources_id)
     .first()
     return resources
-
 }
 
 const insert = (resource) => {
